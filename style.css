@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400&display=swap');
+body {
+    color: white;
+    background-color: rgb(44, 45, 46);
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    background-size: 100% 800px;
+    font-family: Signika Negative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(18, 206, 231);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+h1+div {
+    text-align: center;
+}
+
+input {
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    border-radius: 50%;
+    height: 35px;
+    width: 70px;
+    background-color: rgb(44, 193, 204);
+    font-weight: 700;
+    margin-left: 20px;
+    color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+
+
+/* Basically its works as a container */
+
+#appendData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+#movie-div {
+    background-color: rgba(240, 238, 238, 0.164);
+    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+span {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+p {
+    max-width: 80%;
+    font-size: 18px;
+    word-spacing: 1px;
+    letter-spacing: 0.9px;
+    margin-left: 10px;
+}
+
+#movie-info {
+    margin-bottom: 30px;
+}
+
+h6 {
+    font-size: 17px;
+    margin-bottom: -15px;
+    margin-left: 10px;
+}
+
+#movie-info span:nth-of-type(5) {
+    font-size: 10px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+#not_found {
+    display: none;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#not_found>img {
+    width: 400px;
+    border-radius: 50%;
+}
