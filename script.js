@@ -23,7 +23,7 @@ async function getRequest() {
         let movieTitle = document.createElement("h3");
         let year = document.createElement("span");
         let rated = document.createElement("span");
-        let rating = document.createElement("span");
+        let rating = document.createElement("span_rating");
         let runtime = document.createElement("span");
         let plot = document.createElement("p");
         let actors = document.createElement("h6");
