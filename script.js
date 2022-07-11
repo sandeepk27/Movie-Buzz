@@ -34,7 +34,7 @@ async function getRequest() {
         let detailsDiv = document.createElement("div");
 
         movieFrame.src = obj.Poster;
-        movieTitle.innerHTML = obj.Title; //the name should be same as apidata;
+        movieTitle.innerHTML = obj.Title; //the name should be same as api data;
 
         year.innerHTML = obj.Year;
         rated.innerHTML = " | " + obj.Rated;
